@@ -8,9 +8,9 @@ import java.io.IOException;
 import java.io.BufferedReader;
 
 public class Translator {
-	String fileInName;
-	String fileOutName;
-	Map<String, String> vocabulary;
+	private String fileInName;
+	private String fileOutName;
+	private Map<String, String> vocabulary;
 
 	public Translator(String fileInName, String fileOutName, Map<String, String> vocabulary) {
 		super();
